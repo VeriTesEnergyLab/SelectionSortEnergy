@@ -16,13 +16,13 @@ public class SelectionSortEnergy {
         double consumption7 = 0;
         
         //2
-        double[] before2 = EnergyCheckUtils.getEnergyStats(); 
+        //double[] before2 = EnergyCheckUtils.getEnergyStats(); 
         int i, j;
         int min, temp;
         int size = numbers.size();
-        double[] after2 = EnergyCheckUtils.getEnergyStats();
-        double consumption2 = ((after2[0] - before2[0]) + (after2[1] - before2[1]) + (after2[2] - before2[2])) / 10.0;
-        System.out.println("\nPower consumption 2: " + consumption2);
+        //double[] after2 = EnergyCheckUtils.getEnergyStats();
+        //double consumption2 = ((after2[0] - before2[0]) + (after2[1] - before2[1]) + (after2[2] - before2[2])) / 10.0;
+        //System.out.println("\nPower consumption 2: " + consumption2);
         //2
 
         //3
@@ -45,7 +45,7 @@ public class SelectionSortEnergy {
                 double[] before6 = EnergyCheckUtils.getEnergyStats(); 
                 if (numbers.get(j) < numbers.get(min)){
                   min = j;
-                  z++;
+                  //z++;
                 }
                 double[] after6 = EnergyCheckUtils.getEnergyStats();
                 consumption6 += ((after6[0] - before6[0]) + (after6[1] - before6[1]) + (after6[2] - before6[2])) / 10.0;
@@ -72,8 +72,8 @@ public class SelectionSortEnergy {
         //System.out.println("\nPower consumption 3: " + consumption3/x + " N: " + x);
         //System.out.println("\nPower consumption 4: " + consumption4/x + " N: " + x);
         //System.out.println("\nPower consumption 5: " + consumption5/y + " N: " + y);        
-        System.out.println("\nPower consumption 6: " + consumption6/z + " N: " + z);
-        System.out.println("\nPower consumption 7: " + consumption7/x + " N: " + x);
+        System.out.print("\t" + consumption6/y);
+        System.out.print("\t" + consumption7/x);
     }
 
     public static void selectionSortArrayList(ArrayList<Integer> numbers) {
@@ -84,13 +84,13 @@ public class SelectionSortEnergy {
         double consumption7 = 0;
         
         //2
-        double[] before2 = EnergyCheckUtils.getEnergyStats(); 
+        //double[] before2 = EnergyCheckUtils.getEnergyStats(); 
         int i, j;
         int min, temp;
         int size = numbers.size();
-        double[] after2 = EnergyCheckUtils.getEnergyStats();
-        double consumption2 = ((after2[0] - before2[0]) + (after2[1] - before2[1]) + (after2[2] - before2[2])) / 10.0;
-        System.out.println("\nPower consumption 2: " + consumption2);
+        //double[] after2 = EnergyCheckUtils.getEnergyStats();
+        //double consumption2 = ((after2[0] - before2[0]) + (after2[1] - before2[1]) + (after2[2] - before2[2])) / 10.0;
+        //System.out.println("\nPower consumption 2: " + consumption2);
         //2
 
         //3
@@ -113,7 +113,7 @@ public class SelectionSortEnergy {
                 double[] before6 = EnergyCheckUtils.getEnergyStats(); 
                 if (numbers.get(j) < numbers.get(min)){
                   min = j;
-                  z++;
+                  //z++;
                 }
                 double[] after6 = EnergyCheckUtils.getEnergyStats();
                 consumption6 += ((after6[0] - before6[0]) + (after6[1] - before6[1]) + (after6[2] - before6[2])) / 10.0;
@@ -140,8 +140,8 @@ public class SelectionSortEnergy {
         //System.out.println("\nPower consumption 3: " + consumption3/x + " N: " + x);
         //System.out.println("\nPower consumption 4: " + consumption4/x + " N: " + x);
         //System.out.println("\nPower consumption 5: " + consumption5/y + " N: " + y);        
-        System.out.println("\nPower consumption 6: " + consumption6/z + " N: " + z);
-        System.out.println("\nPower consumption 7: " + consumption7/x + " N: " + x);
+        System.out.print("\t" + consumption6/y);
+        System.out.print("\t" + consumption7/x);
     }    
 
     public static void selectionSortLinkedList(LinkedList<Integer> numbers) {
@@ -152,13 +152,13 @@ public class SelectionSortEnergy {
         double consumption7 = 0;
         
         //2
-        double[] before2 = EnergyCheckUtils.getEnergyStats(); 
+        //double[] before2 = EnergyCheckUtils.getEnergyStats(); 
         int i, j;
         int min, temp;
         int size = numbers.size();
-        double[] after2 = EnergyCheckUtils.getEnergyStats();
-        double consumption2 = ((after2[0] - before2[0]) + (after2[1] - before2[1]) + (after2[2] - before2[2])) / 10.0;
-        System.out.println("\nPower consumption 2: " + consumption2);
+        //double[] after2 = EnergyCheckUtils.getEnergyStats();
+        //double consumption2 = ((after2[0] - before2[0]) + (after2[1] - before2[1]) + (after2[2] - before2[2])) / 10.0;
+        //System.out.println("\nPower consumption 2: " + consumption2);
         //2
 
         //3
@@ -181,7 +181,7 @@ public class SelectionSortEnergy {
                 double[] before6 = EnergyCheckUtils.getEnergyStats(); 
                 if (numbers.get(j) < numbers.get(min)){
                   min = j;
-                  z++;
+                  //z++;
                 }
                 double[] after6 = EnergyCheckUtils.getEnergyStats();
                 consumption6 += ((after6[0] - before6[0]) + (after6[1] - before6[1]) + (after6[2] - before6[2])) / 10.0;
@@ -208,8 +208,8 @@ public class SelectionSortEnergy {
         //System.out.println("\nPower consumption 3: " + consumption3/x + " N: " + x);
         //System.out.println("\nPower consumption 4: " + consumption4/x + " N: " + x);
         //System.out.println("\nPower consumption 5: " + consumption5/y + " N: " + y);        
-        System.out.println("\nPower consumption 6: " + consumption6/z + " N: " + z);
-        System.out.println("\nPower consumption 7: " + consumption7/x + " N: " + x);
+        System.out.print("\t" + consumption6/y);
+        System.out.print("\t" + consumption7/x);
     }
 
     public static void main(String[] args) {
@@ -217,12 +217,12 @@ public class SelectionSortEnergy {
         double[] beforeTotalEnergy = EnergyCheckUtils.getEnergyStats();  
         
         //0
-        double[] before0 = EnergyCheckUtils.getEnergyStats();  
+        //double[] before0 = EnergyCheckUtils.getEnergyStats();  
         int n = Integer.parseInt(args[0]);
         int opt = Integer.parseInt(args[1]);
-        double[] after0 = EnergyCheckUtils.getEnergyStats();
-        double consumption0 = ((after0[0] - before0[0]) + (after0[1] - before0[1]) + (after0[2] - before0[2])) / 10.0;
-        System.out.println("\nPower consumption 0: " + consumption0);
+        //double[] after0 = EnergyCheckUtils.getEnergyStats();
+       // double consumption0 = ((after0[0] - before0[0]) + (after0[1] - before0[1]) + (after0[2] - before0[2])) / 10.0;
+        //System.out.print("\nPower consumption 0: " + consumption0);
         //0
         
         if (opt == 1) {
@@ -234,7 +234,7 @@ public class SelectionSortEnergy {
             }
             double[] after1 = EnergyCheckUtils.getEnergyStats();
             double consumption1 = ((after1[0] - before1[0]) + (after1[1] - before1[1]) + (after1[2] - before1[2])) / 10.0;
-            System.out.println("\nPower consumption 1: " + consumption1);        
+            System.out.print("\n" + consumption1);        
             //1
             //2
             selectionSortVector(numbers);
@@ -249,7 +249,7 @@ public class SelectionSortEnergy {
             }
             double[] after1 = EnergyCheckUtils.getEnergyStats();
             double consumption1 = ((after1[0] - before1[0]) + (after1[1] - before1[1]) + (after1[2] - before1[2])) / 10.0;
-            System.out.println("\nPower consumption 8: " + consumption1);        
+            System.out.print("\n" + consumption1);        
             //8             
             //9
             selectionSortArrayList(numbers);
@@ -264,7 +264,7 @@ public class SelectionSortEnergy {
             }
             double[] after1 = EnergyCheckUtils.getEnergyStats();
             double consumption1 = ((after1[0] - before1[0]) + (after1[1] - before1[1]) + (after1[2] - before1[2])) / 10.0;
-            System.out.println("\nPower consumption 15: " + consumption1);        
+            System.out.print("\n" + consumption1);        
             //15
             //16
             selectionSortLinkedList(numbers);
@@ -278,7 +278,7 @@ public class SelectionSortEnergy {
 //            System.out.print(numbers.get(i) + " ");
 //        }
         
-//        System.out.println();
+//        System.out.print();
 
         
 //        for(int i = 0; i < numbers.size(); i++) {
@@ -290,7 +290,7 @@ public class SelectionSortEnergy {
         
         double[] afterTotalEnergy = EnergyCheckUtils.getEnergyStats();
         double consumptionTotalEnergy = ((afterTotalEnergy[0] - beforeTotalEnergy[0]) + (afterTotalEnergy[1] - beforeTotalEnergy[1]) + (afterTotalEnergy[2] - beforeTotalEnergy[2])) / 10.0;
-        System.out.println("\nPower consumption Total: " + consumptionTotalEnergy);        
+        System.out.print("\t" + consumptionTotalEnergy);              
     }
 
 }
